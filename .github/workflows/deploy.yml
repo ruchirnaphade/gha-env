@@ -27,7 +27,7 @@ jobs:
         run: npm ci
       - name: Run server
         run: echo "strating server and database"
-      - name: Run tests
+      - name: echo "Running tests"
         run: npm test
       - name: Output information
         run: |
